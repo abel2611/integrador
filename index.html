@@ -10,14 +10,17 @@
     <title>RetroToon</title>
 </head>
 <body>
-<header>
-    <a href="#" class="logo"><h2>RetroToon</h2></a>
-
+    <div class="big-con">
+    <div class="cont-gral">
+<header class="hero">
+    <div class="logo">
+    <h2>RetroToon</h2>
+</div>
     <nav class="navbar">
         <input id="nav-toggle" type="checkbox">
         <ul class="links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
             <li><a href="#">Estudios</a></li>
             <li><a href="#">contacto</a></li>
             <li><a href="#"><i class="fas fa-sign-in-alt"></i></a></li>
@@ -28,19 +31,17 @@
             <div class="line"></div>
         </label>
     </nav>
-
 </header>
 
-<div class="container">
+<div id="home" class="container">
 
     <div class="content">
         
         <div class="cont-tit">
             <span style="--l: 'Re';">Re</span>
             <span style="--l: 'tro';">tro</span>
-            <span style="--l: 'T';">T</span>
-            <span style="--l: 'oo';">oo</span>
-            <span style="--l: 'N';">N</span>
+            <span style="--l: 'To';">To</span>
+            <span style="--l: 'oN';">oN</span>
           </div>
 
         <div>
@@ -48,7 +49,7 @@
         </div>
 
         <div>
-        <a href="#"><button>Registrarse</button></a>
+        <a href="#"><button class=".btn-gral">Registrarse</button></a>
         </div>
     
         <div>
@@ -58,14 +59,24 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-youtube"></i>
       </div>
-    </div>
-        <div class="video-cont">
-        <video src="./img/fondo.mp4" autoplay muted loop></video>
-        </div>
+    </div>        
   </div>
+  <video src="./img/fondo.mp4" autoplay muted loop></video>
 
-    
+  <section id="nosotros" class="wave-contenedor website">
+    <img src="./img/hanna.jpg" alt="">
+    <div class="contenedor-textos-main">
+        <h3 class="titulo left">Nosotros</h3>
+        <p class="parrafo">Te traemos los "dibujitos" con los que creciste. Para aquellos nostalgicos que quieran realizar un viaje a los inicios de la animación, como la conocemos hoy en dia. Acá vas a poder hacer un recorrido a travez de los estudios de animación y recordar eso que nos hizo felices de chicos</p>
+        </div>
+</section>
 
+
+</div>
+</div>
+<footer>
+
+</footer>
 
 <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
 </body>
