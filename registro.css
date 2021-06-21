@@ -87,7 +87,8 @@ video{
     font-size: 4rem;
     color: #fff;
     text-decoration: none;
-    text-shadow:var(--text-shadow) ;
+    text-shadow:var(--text-shadow);
+    text-decoration: none;
 }
 
 .navbar ul{
@@ -147,8 +148,9 @@ list-style: none;
 }
 
 .login-box {
+    
 	width: 320px;
-	height: 420px;
+	height: 600px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	top: 50%;
@@ -158,6 +160,7 @@ list-style: none;
 	box-sizing: border-box;
 	padding: 70px 30px;
 	border-radius: 20px;
+    
   }
   
   .login-box .avatar {
@@ -180,7 +183,7 @@ list-style: none;
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
-	display: block;
+	display: flex;
   }
   
   .login-box input {
@@ -188,7 +191,7 @@ list-style: none;
 	margin-bottom: 20px;
   }
   
-  .login-box input[type="text"], .login-box input[type="password"] {
+  .login-box input[type="text"], .login-box input[type="email"], .login-box input[type="date"], .login-box input[type="password"]  {
 	border: none;
 	border-bottom: 1px solid #fff;
 	background: transparent;

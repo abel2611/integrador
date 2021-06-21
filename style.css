@@ -449,7 +449,7 @@ footer{
 
 .input::placeholder{
     color: #fff;
-    font-family: 'raleway', 'sans-serif';
+    
 }
 
 input[type="text"], 
@@ -457,11 +457,13 @@ input[type="email"]{
     display: inline-block;
     width: 49%;
     margin-bottom: 30px;
+	border-radius: 20px;
 }
 
 .form textarea{
     width: 100%;
     margin-bottom: 15px;
+	border-radius: 20px;
 }
 
 input[type="submit"]{
@@ -470,6 +472,7 @@ input[type="submit"]{
     text-align: center;
     padding: 14px 0;
 	margin-bottom: 2rem;
+	border-radius: 20px;
 }
 
 input[type="submit"]:hover{
@@ -593,6 +596,7 @@ p{
 		flex-direction: column;
         width: 90%;
         margin-bottom: 20px;
+		
     }
 
 }
@@ -610,6 +614,7 @@ p{
 		
 	}
 	.card{
+		
         width: 90%;
         margin-bottom: 20px;
     }
@@ -624,5 +629,7 @@ p{
 
 	.content-cards .card{
 		height: 600px;
+		width: 90%;
+
 	}
 }
